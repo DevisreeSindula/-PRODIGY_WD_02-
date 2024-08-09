@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://media.istockphoto.com/id/2043410736/photo/3d-background-of-colorful-transparent-spheres-soap-bubbles-fantastic-backgrounds.jpg?s=612x612&w=0&k=20&c=-viUZFZIj6P1gB9o9WOYFx1bi3yyaC8UsYQ0yiuvXBA=");
+    background-size: cover;
+}
+
+.stopwatch {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #ddd;
+}
+
+.laps {
+    margin-top: 20px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.laps div {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
